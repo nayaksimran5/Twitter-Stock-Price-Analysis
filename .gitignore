@@ -1,0 +1,31 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Ignore large or backup data files
+*.csv
+*.xlsx
+*.sqlite
+*.db
+*.bak
+
+# Ignore sensitive files (credentials, tokens, secrets)
+.env
+creds.json
+secrets.json
+keys/
+config.yaml
+
+# Ignore project environment files
+venv/
+anaconda_projects/
+__pycache__/
+*.pyc
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore VSCode settings (optional)
+.vscode/
